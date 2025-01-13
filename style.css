@@ -1,0 +1,84 @@
+/** This is the "style.css" file **/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #ff6347;
+}
+.hero {
+    background-image: url('graphic-design.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.hero p {
+    font-size: 24px;
+}
+.section {
+    padding: 40px 10%;
+    text-align: center;
+}
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.service p {
+    font-size: 16px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
